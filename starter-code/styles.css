@@ -1,0 +1,61 @@
+/* @media (min-width: 992px) */
+
+* {
+    transition: all .5s;
+}
+.navbar-expand-lg {
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -ms-flex-pack: start;
+    justify-content: center;
+}
+.row div{
+    border: 1px solid red;
+
+
+}
+.banner .col-md-4 {
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+.banner h2, .banner i {
+    display: block;
+    text-align: center;
+}
+.banner i {
+    font-size: 64px;
+}
+.row.images.first .col-md-3:hover{
+    invert: sepia(1);
+
+}
+.row.images .col-md-3:nth-child(1){
+    background-image: url("./img/project-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+}
+.row.images .col-md-3:nth-child(2){
+    background-image: url("./img/project-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+}
+.row.images .col-md-3:nth-child(3){
+    background-image: url("./img/project-3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+}
+.row.images .col-md-3:nth-child(4){
+    background-image: url("./img/project-4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+}
